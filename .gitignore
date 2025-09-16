@@ -1,0 +1,10 @@
+# local working copies (do not track in index repo)
+creative-designs/
+hr-chatbot/
+
+# common noise
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
