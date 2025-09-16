@@ -10,15 +10,15 @@ A curated index of my AI demos, course builds, and showcase apps. Each project i
 ### 1) Creative Designs — OpenAI + Gradio
 Turn text prompts into campaign-ready images with a simple Gradio UI.
 - **Stack:** Python, Gradio, OpenAI API, Docker
-- **Repo:** [creative-designs](https://github.com/l8knightz/creative-designs)
+- **Repo:** [creative-design](https://github.com/l8knightz/creative-design)
 - **Highlights:** Style presets, multiple canvas sizes, clean container workflow
 - **Screenshot:**  
   ![Creative Designs](assets/creative-designs-thumb.png)
 
 **Run (from the project repo)**
 ```bash
-git clone https://github.com/l8knightz/creative-designs.git
-cd creative-designs
+git clone https://github.com/l8knightz/creative-design.git
+cd creative-design
 cp env.example .env   # add your OPENAI_API_KEY
 docker compose up --build
 # open http://localhost:7860
